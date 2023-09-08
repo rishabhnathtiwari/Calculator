@@ -1,0 +1,137 @@
+body{
+  background-color: #3B4664;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 97vw;
+  height: 97vh;
+}
+
+.container{
+  background-color: transparent;
+  width: 367px;
+}
+
+.container-item1{
+  background-color: transparent;
+  color: #1E1E1E;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.container-item1:hover{
+  color: white;
+}
+
+
+.container-item2{
+  border-radius: 12px;
+  width: 381px;
+  background-color: #181F32;
+  color: #FFF;
+  text-align: right;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Segoe UI;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container-item2:hover{
+  background-color: rgba(13, 167, 57, 0.634);
+  color: #FFF;
+  border: 3px solid red;
+}
+
+.container-item3{
+  width: 100%;
+  border-radius: 12px;
+  background-color: #252D44;
+  display: block;
+  justify-content: space-around;
+  align-items: center;
+  padding: 11px 11px 11px 11px;
+}
+
+.button-row1,.button-row2,.button-row3,.button-row4,.button-row5 {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button-white{
+  border-radius: 12px;
+  background-color: #EAE3DB;
+  width: 71px;
+  height: 51px;
+  color: #181F32;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.button-grey{
+  border-radius: 12px;
+  background-color: #647299;
+  width: 71px;
+  height: 51px;
+  color: #FFF;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.button-gry-large{
+  width: 165px;
+  height: 51px;
+  color: #FFF;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 23.048px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  border-radius: 11.524px;
+  background-color:  #647299;;
+}
+
+.button-red-large{
+  width: 165px;
+  height: 51px;
+  border-radius: 11.524px;
+  background-color: #D13F30;
+  color: #FFF;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 23.048px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+button:hover{
+  background-color: rgba(13, 167, 57, 0.634);
+  border: 3px solid red;
+}

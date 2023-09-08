@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-item1">
+            calc
+        </div>
+        <br>
+        <div class="container-item2">
+            <form>
+                <input id="displayScreen" type="text" id="input" placeholder="000" class="container-item2" readonly>
+            </form>
+        </div>
+        <br>
+        <div class="container-item3">
+            <br>
+            <div class="button-row1">
+                <button class="button-white" id="7" onclick="display('7')">
+                    7
+                </button>
+                <button class="button-white" id="8" onclick="display('8')"> 
+                    8
+                </button>
+                <button class="button-white" id="9" onclick="display('9')">
+                    9
+                </button>
+                <button class="button-grey" id="del" onclick="delFunction()">
+                    DEL
+                </button>
+            </div>
+            <br>
+            <div class="button-row2">
+                <button class="button-white" id="4" onclick="display('4')">
+                    4
+                </button>
+                <button class="button-white" id="5" onclick="display('5')">
+                    5
+                </button>
+                <button class="button-white" id="6" onclick="display('6')">
+                    6
+                </button>
+                <button class="button-white" id="addition" onclick="display('+')">
+                    +
+                </button>
+            </div>
+            <br>
+            <div class="button-row3">
+                <button class="button-white" id="1" onclick="display('1')">
+                    1
+                </button>
+                <button class="button-white" id="2" onclick="display('2')">
+                    2
+                </button>
+                <button class="button-white" id="3" onclick="display('3')">
+                    3
+                </button>
+                <button class="button-white" id="subtract" onclick="display('-')">
+                    -
+                </button>
+            </div>
+            <br>
+            <div class="button-row4">
+                <button class="button-white" id="dot" onclick="display('.')">
+                    .
+                </button>
+                <button class="button-white" id="0" onclick="display('0')">
+                    0
+                </button>
+                <button class="button-white" id="divide" onclick="display('/')">
+                    /
+                </button>
+                <button class="button-white" id="multiply" onclick="display('X')">
+                    x
+                </button>
+            </div>
+            <br>
+            <div class="button-row5">
+                <button class="button-gry-large" id="reset" onclick="resetFunction()">
+                    RESET
+                </button>
+                <button class="button-red-large" id="equals" onclick="equalsFunction()">
+                    =
+                </button>
+            </div>
+            <br>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
